@@ -1,0 +1,35 @@
+# Ignore bundler config
+/backend/.bundle
+
+# Ignore log files and temp files.
+/backend/log/*
+/backend!/log/.keep
+/backend/tmp
+/backend!/tmp/.keep
+/tmp
+
+# Ignore database configuration and secrets
+/backend/config/master.key
+/backend/config/credentials.yml.enc
+/backend/config/database.yml
+
+# Ignore yarn and npm dependencies for frontend
+/frontend/node_modules
+/frontend/build
+
+# Ignore compiled assets
+/public/assets
+/public/packs
+
+# Ignore docker-related files
+/tmp/db
+docker-compose.override.yml
+.docker/
+
+# Ignore Editor or OS-specific files
+*.swp
+*~
+.project
+.idea
+.vscode
+.DS_Store
